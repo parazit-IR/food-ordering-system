@@ -7,6 +7,7 @@
 /dataSources/
 /dataSources.local.xml
 *.iml
-compiler.xml
-encodings.xml
-vcs.xml
+/.idea/compiler.xml
+/.idea/encodings.xml
+/.idea/vcs.xml
+/.idea/workspace.xml
