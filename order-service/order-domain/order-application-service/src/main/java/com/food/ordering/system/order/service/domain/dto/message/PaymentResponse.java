@@ -16,9 +16,9 @@ import java.util.UUID;
 public class PaymentResponse {
     private String id;
     private String sagaId;
-    private UUID orderId;
-    private UUID paymentId;
-    private UUID customerId;
+    private String orderId;
+    private String paymentId;
+    private String customerId;
     private BigDecimal price;
     private Instant createdAt;
     private PaymentStatus paymentStatus;
