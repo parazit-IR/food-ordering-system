@@ -11,7 +11,7 @@ public class Customer extends AggregateRoot<CustomerId> {
     public Customer() {
     }
 
-    public Customer(UUID customerId) {
-        this.customerId = new CustomerId(customerId) ;
+    public Customer(CustomerId customerId) {
+        super.setId(customerId);
     }
 }
