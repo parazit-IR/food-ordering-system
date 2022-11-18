@@ -24,7 +24,7 @@ public class OrderKafkaMessageHelper {
             @Override
             public void onSuccess(SendResult<String, T> result) {
                 RecordMetadata metadata = result.getRecordMetadata();
-                log.error("Received successful response from kafka for order id : {} Topic: {} Partition {} Offset: {} TimeStamp: {}",
+                log.info("Received successful response from kafka for order id : {} Topic: {} Partition {} Offset: {} TimeStamp: {}",
                         orderId,
                         metadata.topic(),
                         metadata.partition(),
